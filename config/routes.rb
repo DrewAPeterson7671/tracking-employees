@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  resources :divisions
+  resources :divisions do
+    resources :employees
+  end
 end
