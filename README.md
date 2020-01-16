@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+* views get organized for projects - not on any ERB
+* routing for projects
+* can you have more index pages
+
+* need scopes
+* need seeding
