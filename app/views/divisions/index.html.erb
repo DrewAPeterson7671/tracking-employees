@@ -1,15 +1,21 @@
 <h1>Divisions</h1>
 
-
-<% if @divisions.any? %>
+<div class="division">
+  <% if @divisions.any? %>
   <ul>
     <% @divisions.each do |division| %>
-      <li><%= link_to division.div_name, division_path(division) %></li>
+    <li><%= link_to division.div_name, division_path(division) %></li>
+
     <% end %>
   </ul>
-<% else %>
+  <% else %>
   <p>There are no divisions yet.</p>
-<% end %>
+  <% end %>
+
+</div>
 
 
-<p><%= link_to "Create new division", new_division_path %></p>
+<div class="division2">
+  <p><%= link_to "Create new division", new_division_path %></p>
+  <p><%= link_to "Return to projects", projects_path %></p>
+</div>

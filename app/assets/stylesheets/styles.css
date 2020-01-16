@@ -1,0 +1,50 @@
+body {
+  background-image: url(/assets/wallpaper.jpg);
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+.size {
+  width: 500px;
+  height: 390px;
+  margin-left: 350px;
+  margin-top: 300px;
+  background-color: lightgrey;
+  color: black;
+  border-style: solid;
+  border-width: 10px;
+
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+p {
+  color: white;
+
+}
+
+a {
+  color: red;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+li {
+  text-align: left;
+}
+
+.division {
+  width: 420px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.division2 {
+  margin-top: 50px;
+
+}
