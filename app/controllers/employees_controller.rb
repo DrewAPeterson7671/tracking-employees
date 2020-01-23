@@ -1,4 +1,6 @@
 class EmployeesController < ApplicationController
+  before_action :authorize, only: [:new, :create, :edit, :update, :destroy]
+  
   def new
     @division = Division.find(params[:division_id])
     @employee = @division.employees.new

@@ -1,4 +1,5 @@
 class DivisionsController < ApplicationController
+before_action :authorize, only: [:new, :create, :edit, :update, :destroy]
 
   def index
     @divisions = Division.all
